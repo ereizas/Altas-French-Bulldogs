@@ -3379,7 +3379,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/banner_dogs.webp");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3388,7 +3388,7 @@ input, select, textarea {
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: contain;
 		border-bottom: 0 !important;
 		cursor: default;
 		height: 60vh;
