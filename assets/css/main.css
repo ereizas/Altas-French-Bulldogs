@@ -2279,6 +2279,7 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		padding-top:23%;
 	}
 
 		ul.actions li {
@@ -3375,14 +3376,8 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
+		align-items: flex-start;
 		background-image: url("../../images/banner_dogs.webp");
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
 		display: flex;
 		padding: 6em 0 2em 0 ;
 		background-attachment: fixed;
@@ -3423,6 +3418,7 @@ input, select, textarea {
 
 		#banner h1 {
 			font-size: 3.25em;
+			margin-top:-5%;
 		}
 
 		#banner > .inner {
@@ -3431,6 +3427,7 @@ input, select, textarea {
 			-ms-transition: opacity 1.5s ease, -ms-transform 0.5s ease-out, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
 			transition: opacity 1.5s ease, transform 0.5s ease-out, filter 0.5s ease, -webkit-filter 0.5s ease;
 			padding: 0 !important;
+			text-align: center;
 			position: relative;
 			z-index: 2;
 		}
@@ -3456,10 +3453,8 @@ input, select, textarea {
 				display: -webkit-flex;
 				display: -ms-flex;
 				display: flex;
-				-moz-align-items: center;
-				-webkit-align-items: center;
-				-ms-align-items: center;
 				align-items: center;
+				justify-content: center;
 				margin: 0 0 2em 0;
 			}
 
