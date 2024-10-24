@@ -2754,20 +2754,12 @@ input, select, textarea {
 			width: 40%;
 		}
 
-			#about {
-				background-size: contain;
-			}
-
-			#our-females {
+			#contained-tile {
 				background-size: contain;
 			}
 
 			#planned-litters{
 				background-size: cover;
-			}
-
-			#puppies {
-				background-size: contain;
 			}
 
 			.tiles article .image {
