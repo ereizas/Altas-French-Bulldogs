@@ -2754,6 +2754,10 @@ input, select, textarea {
 			width: 40%;
 		}
 
+			#about {
+				background-size: contain;
+			}
+
 			#our-females {
 				background-size: contain;
 			}
@@ -2838,7 +2842,7 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-color: #417789;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
