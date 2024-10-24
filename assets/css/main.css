@@ -2745,7 +2745,6 @@ input, select, textarea {
 			padding: 4em 4em 2em 4em ;
 			background-position: center;
 			background-repeat: no-repeat;
-			background-size: cover;
 			cursor: default;
 			height: 40vh;
 			max-height: 40em;
@@ -2754,6 +2753,14 @@ input, select, textarea {
 			position: relative;
 			width: 40%;
 		}
+
+			#our-females {
+				background-size: contain;
+			}
+
+			#planned-litters{
+				background-size: cover;
+			}
 
 			.tiles article .image {
 				display: none;
@@ -3944,6 +3951,8 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+/*Article Links*/
 
 .tbd {
 	padding-left: 80%;
